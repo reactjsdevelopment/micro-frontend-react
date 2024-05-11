@@ -28,11 +28,15 @@ micro frontend react app.
 ### Useful Links
 - http://localhost:3001/ about app
 - http://localhost:8080/ product app
+- http://localhost:8081/ stripe app
 
 ### Packages used
 - axios
 - react-router-dom
 - react-router
+- usetheform
+- styled-components
+- react-device-detect
 
 ## Subscribe and Stay Updated!
 

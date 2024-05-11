@@ -4,5 +4,5 @@ declare module "product/Loader";
 declare module "product/Routes";
 declare module "product/Props";
 declare module "product/Basic";
-
-
+declare module "product/Forms";
+declare module "product/Styles";

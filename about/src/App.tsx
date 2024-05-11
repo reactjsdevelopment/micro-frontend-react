@@ -6,7 +6,8 @@ import Loader from "product/Loader";
 import Routes from "product/Routes";
 import Props from "product/Props";
 import Basic from "product/Basic";
-
+import Forms from "product/Forms";
+import Styles from "product/Styles";
 
 import './index.scss'
 
@@ -28,7 +29,9 @@ const App = () => (
     {/* <Routes /> */}
     {/* <Footer /> */}
     {/* <Props/> */}
-    {/* <Basic/> */}
+    <Basic/>
+    {/* <Forms/> */}
+    {/* <Styles/> */}
   </div>
 )
 const rootElement = document.getElementById('app')
