@@ -21,11 +21,18 @@ I'm Sam, and I'm passionate about product engineering and web development. I cre
 
 ### About the app
 micro frontend react app. 
-npx create-mf-app
+
+### Useful Command
+- npx create-mf-app
+
+### Useful Links
+- http://localhost:3001/ about app
+- http://localhost:8080/ product app
 
 ### Packages used
 - axios
 - react-router-dom
+- react-router
 
 ## Subscribe and Stay Updated!
 

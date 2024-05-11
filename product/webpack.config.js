@@ -46,7 +46,11 @@ module.exports = (_, argv) => ({
       remotes: {},
       exposes: {
         "./Header": "./src/components/Header.tsx",
-        "./Footer": "./src/components/Footer.tsx"
+        "./Footer": "./src/components/Footer.tsx",
+        "./Loader": "./src/loader/Loader_Home.tsx",
+        "./Routes": "./src/routes/Route_Home.tsx",
+        "./Props": "./src/props/Prop_Home.tsx",
+        "./Basic": "./src/basic/Basic_Home.tsx"
       },
       shared: {
         ...deps,
