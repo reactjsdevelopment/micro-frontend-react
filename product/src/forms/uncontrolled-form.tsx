@@ -110,6 +110,17 @@ export function Apptest() {
     <form onSubmit={onSubmit}>
       <input type="text" name="name" ref={nameRef} required />
       <input type="email" name="email" ref={emailRef} required placeholder="email"/>
+      <input
+  ref={(ref) => {
+    // ref created
+
+    // NEW: return a cleanup function to reset
+    // the ref when element is removed from DOM.
+    return () => {
+      // ref cleanup
+    };
+  }}
+/>
       <input type="submit" value="Submit" />
     </form>
   );
